@@ -20,6 +20,10 @@ function App() {
       return diceArray
     }
 
+  function rollDice() {
+    setDiceState(generateAlllNewDice()) 
+  }
+
 
   return (
 
@@ -28,6 +32,8 @@ function App() {
     <div className='dice-container'>
      {diceElements}
      </div>
+
+     <button className="roll-dice-button" onClick={rollDice}>Roll Dice</button>
     </main>
 
   )
