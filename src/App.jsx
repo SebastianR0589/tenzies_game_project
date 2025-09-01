@@ -9,7 +9,7 @@ function App() {
 
   const [diceState, setDiceState] = React.useState(generateAlllNewDice()) 
   
-  const diceElements = diceState.map(dieObj => <Die key={dieObj.id} value={dieObj.value} />)  //“for this number, make a Die component”
+  const diceElements = diceState.map(dieObj => <Die key={dieObj.id} value={dieObj.value} isHeld={dieObj.isHeld} holdDice={holdDice} id={dieObj.id}/>)  //“for this number, make a Die component”
 
 
   function generateAlllNewDice() {
@@ -20,10 +20,21 @@ function App() {
       return diceArray.map(num => ({value: num, isHeld: false, id:nanoid()}))
     }
 
-  function rollDice() {
-    setDiceState(generateAlllNewDice()) 
-  }
+function rollDice() {
+  setDiceState(prevState =>
+    prevState.map(die => 
+      !die.isHeld ? { ...die, value: Math.ceil(Math.random() * 6) } : die
+    )
+  )
+}
 
+function holdDice(id) {
+  setDiceState(prevState =>
+    prevState.map(die => 
+      die.id === id ? {...die, isHeld: !die.isHeld} : die
+    )
+  )
+}
 
   return (
 
