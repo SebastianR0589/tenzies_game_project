@@ -1,12 +1,27 @@
-# React + Vite
+# Sebastian Riedel Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! Here you'll find some of the web projects I've built.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Tenzies Game
+**Description:**  
+This app generates a game of Tenzies. The basic principal of the game is to collect the same dice value on all dices as quick as possible. The user can save/hold dice values and only reroll dice values that differentiate. Once the user has save/holds all dice of the same value he won the game and can restart the game.
 
-## Expanding the ESLint configuration
+Since I am using a AI, I had to use a personal token, which I cannot upload to github. Therefor I can't present a running live demo.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+**GitHub Repo:** [Link to repo](https://github.com/SebastianR0589/tenzies_game_project)
+
+**Screenshots:**
+![Screenshot 1](./screenshots/default.PNG)
+![Screenshot 2](./screenshots/mid_game.PNG)
+![Screenshot 3](./screenshots/won_game.PNG)
+
+**Features:**
+- Fetch user preverences 
+- Generates AI prompt to generate a recommendation list
+- Creates a recommendation list based upon the AI response using react-markdown
+
+**Tech Stack:**  
+React, API integration, react-markdown
