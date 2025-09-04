@@ -17,9 +17,9 @@ This app generates a game of Tenzies. The basic principal of the game is to coll
 ![Screenshot 3](./screenshots/won_game.PNG)
 
 **Features:**
-- Fetch user preverences 
-- Generates AI prompt to generate a recommendation list
-- Creates a recommendation list based upon the AI response using react-markdown
+- Generate a new game of Tenzies
+- Interactively let the user roll the dice and save the wanted dice values
+- Gives feedback if the game was won or lost
 
 **Tech Stack:**  
 React, react-confetti
