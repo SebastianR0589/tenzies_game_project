@@ -24,4 +24,4 @@ Since I am using a AI, I had to use a personal token, which I cannot upload to g
 - Creates a recommendation list based upon the AI response using react-markdown
 
 **Tech Stack:**  
-React, API integration, react-markdown
+React, react-confetti
