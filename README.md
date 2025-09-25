@@ -4,7 +4,7 @@ Welcome to my portfolio! Here you'll find some of the web projects I've built.
 
 ---
 
-### 1. Tenzies Game
+### Tenzies Game
 **Description:**  
 This app generates a game of Tenzies. The basic principal of the game is to collect the same dice value on all dices as quick as possible. The user can save/hold dice values and only reroll dice values that differentiate. Once the user has save/holds all dice of the same value he won the game and can restart the game.
 
