@@ -1,25 +1,42 @@
 # Sebastian Riedel Portfolio
+# Tenzies Game
 
-Welcome to my portfolio! Here you'll find some of the web projects I've built.
+This project is a React-based interactive game inspired by the classic Tenzies dice game. The goal is to collect all dice showing the same value as quickly as possible. Players can hold dice values they want to keep and reroll the remaining dice until all match.
+
+The app demonstrates state management, component-based architecture, and interactive UI feedback in a React environment.
 
 ---
 
-### Tenzies Game
-**Description:**  
-This app generates a game of Tenzies. The basic principal of the game is to collect the same dice value on all dices as quick as possible. The user can save/hold dice values and only reroll dice values that differentiate. Once the user has save/holds all dice of the same value he won the game and can restart the game.
+## Project Goals
+- Practice state management and conditional rendering in React  
+- Implement interactive UI elements and user feedback  
+- Build a small game using reusable React components  
+- Explore third-party libraries for enhancing user experience (e.g., react-confetti)  
 
+---
 
-**GitHub Repo:** [Link to repo](https://github.com/SebastianR0589/tenzies_game_project)
+## Features
+- Start a new game with randomized dice  
+- Hold and release dice values during gameplay  
+- Reroll unheld dice  
+- Display win feedback with animations using react-confetti  
+- Track game progress dynamically  
 
-**Screenshots:**
-![Screenshot 1](./screenshots/default.PNG)
-![Screenshot 2](./screenshots/mid_game.PNG)
-![Screenshot 3](./screenshots/won_game.PNG)
+---
 
-**Features:**
-- Generate a new game of Tenzies
-- Interactively let the user roll the dice and save the wanted dice values
-- Gives feedback if the game was won or lost
+## Tech Stack
+- React  
+- JavaScript  
+- react-confetti  
 
-**Tech Stack:**  
-React, react-confetti
+---
+
+## Screenshots
+![Default Game State](./screenshots/default.PNG)
+![Mid-Game](./screenshots/mid_game.PNG)
+![Winning State](./screenshots/won_game.PNG)
+
+---
+
+## Repository
+GitHub Repository: [Link to repo](https://github.com/SebastianR0589/tenzies_game_project)
